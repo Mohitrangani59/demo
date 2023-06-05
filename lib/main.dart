@@ -7,6 +7,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 void main(){
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
+  print("Hello Gooo Morning");
   runApp(MaterialApp(home: Home(),));
 }
 class Home extends StatefulWidget {
